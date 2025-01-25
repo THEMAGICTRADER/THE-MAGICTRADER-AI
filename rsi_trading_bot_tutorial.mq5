@@ -7,7 +7,7 @@
 // CTrade Class
 #include <Trade\Trade.mqh>
 
-input bool liveRSIPrice = false;                // Use live RSI price?
+input bool liveRSIPrice = true;                // Use live RSI price?
 input int rsiHigh = 70;                         // RSI High threshold
 input int rsiLow = 30;                          // RSI Low threshold
 input int takeProfitPips = 20;                  // Take Profit in Pips
